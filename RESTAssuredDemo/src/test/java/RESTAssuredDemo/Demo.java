@@ -22,6 +22,7 @@ public class Demo {
                     assertThat().
                     body("MRData.CircuitTable.Circuits.circuitId",hasSize(20));
                     System.out.println("Number of Circuits validated");
+                    System.out.println("Testing working off a created feature branch");
     }
 
     @Test
