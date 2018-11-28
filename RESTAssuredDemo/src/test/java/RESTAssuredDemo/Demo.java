@@ -21,6 +21,7 @@ public class Demo {
                 then().
                     assertThat().
                     body("MRData.CircuitTable.Circuits.circuitId",hasSize(20));
+        System.out.pringln("Number of Circuits validated");
     }
 
     @Test
