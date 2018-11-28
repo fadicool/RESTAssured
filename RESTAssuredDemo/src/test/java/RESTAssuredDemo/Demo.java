@@ -38,6 +38,7 @@ public class Demo {
                     contentType(ContentType.JSON).
                 and().
                     header("Content-Length",equalTo("4551"));
+                    System.out.println("RESTAssured demo 2");
     }
     @Test
     public void test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6() {
